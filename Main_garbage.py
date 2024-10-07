@@ -11,7 +11,7 @@ model.multi_label = False  # NMS multiple labels per box
 model.max_det = 1000  # maximum number of detections per image
 
 # set image
-img = 'http://192.168.203.239//capture'
+img = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0BvOcBCO3J53RnxM6xiDRCEc_cy4ED1ed4Q&s'
 
 # perform inference
 results = model(img, size=640)
